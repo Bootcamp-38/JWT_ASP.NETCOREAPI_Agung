@@ -30,37 +30,37 @@ namespace JWT_ASPNetCore_Agung.Controllers
             var result = await Task.FromResult(_dapper.Insert<int>("[dbo].[SP_InsertUser]", dbparams, commandType: CommandType.StoredProcedure));
             return result;
         }
-        //[HttpGet(nameof(GetById))]
-        //public async Task<User> GetById(int id)
-        //{
-        //    var result = await Task.FromResult(_dapper.Get<User>($"Select Id, Email, Password, IsUpdatePassword from TB_M_User where Id = {id}", null, commandType: CommandType.Text));
-        //    return result;
-        //}
+        [HttpGet(nameof(GetById))]
+        public async Task<User> GetById(int id)
+        {
+            var result = await Task.FromResult(_dapper.Get<User>($"Select Id, Email, Password, IsUpdatePassword from TB_M_User where Id = {id}", null, commandType: CommandType.Text));
+            return result;
+        }
         [HttpGet(nameof(GetAllData))]
         public List<User> GetAllData()
         {
             var result = (_dapper.GetAll<User>($"Select Id, Email, Password, IsUpdatePassword from TB_M_User", null, commandType: CommandType.Text));
             return result;
         }
-        //[HttpDelete(nameof(Delete))]
-        //public async Task<int> Delete(int id)
-        //{
-        //    var result = await Task.FromResult(_dapper.Execute($"DELETE FROM TB_M_User WHERE Id = {id}", null, commandType: CommandType.Text));
-        //    return result;
-        //}
-        //[HttpPatch(nameof(Update))]
-        //public Task<int> Update(User data)
-        //{
-        //    var dbPara = new DynamicParameters();
-        //    dbPara.Add("Id", data.Id);
-        //    dbPara.Add("Email", data.Email, DbType.String);
-        //    dbPara.Add("Password", data.Password, DbType.String);
-        //    dbPara.Add("IsUpdatePassword", data.IsUpdatePassword, DbType.Boolean);
+        [HttpDelete(nameof(Delete))]
+        public async Task<int> Delete(int id)
+        {
+            var result = await Task.FromResult(_dapper.Execute($"DELETE FROM TB_M_User WHERE Id = {id}", null, commandType: CommandType.Text));
+            return result;
+        }
+        [HttpPatch(nameof(Update))]
+        public Task<int> Update(User data)
+        {
+            var dbPara = new DynamicParameters();
+            dbPara.Add("Id", data.Id);
+            dbPara.Add("Email", data.Email, DbType.String);
+            dbPara.Add("Password", data.Password, DbType.String);
+            dbPara.Add("IsUpdatePassword", data.IsUpdatePassword, DbType.Boolean);
 
-        //    var updateUser = Task.FromResult(_dapper.Update<int>("[dbo].[SP_Update_User]",
-        //                    dbPara,
-        //                    commandType: CommandType.StoredProcedure));
-        //    return updateUser;
-        //}
+            var updateUser = Task.FromResult(_dapper.Update<int>("[dbo].[SP_Update_User]",
+                            dbPara,
+                            commandType: CommandType.StoredProcedure));
+            return updateUser;
+        }
     }
 }
