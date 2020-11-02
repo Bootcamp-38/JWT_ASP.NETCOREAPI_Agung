@@ -6,13 +6,12 @@ D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\bin\Debug\netcoreap
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\bin\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.runtimeconfig.dev.json
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\bin\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.dll
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\bin\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.pdb
-D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.csprojAssemblyReference.cache
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.AssemblyInfoInputs.cache
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.AssemblyInfo.cs
+D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.csproj.CoreCompileInputs.cache
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.RazorAssemblyInfo.cache
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.RazorAssemblyInfo.cs
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.RazorTargetAssemblyInfo.cache
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.dll
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.pdb
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.genruntimeconfig.cache
-D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.csproj.CoreCompileInputs.cache

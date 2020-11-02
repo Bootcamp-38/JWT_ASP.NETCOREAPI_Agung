@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using JWT_ASPNetCore_Agung.Context;
+using JWT_ASPNetCore_Agung.Repositories;
+using JWT_ASPNetCore_Agung.Repositories.Interface;
+using JWT_ASPNetCore_Agung.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +30,9 @@ namespace JWT_ASPNetCore_Agung
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddScoped<IDapper, Dapperr>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<DepartmentInterface, DepartmentRepository>();
             services.AddDbContext<MyContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
