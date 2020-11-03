@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using Dapper;
 using JWT_ASPNetCore_Agung.Models;
 using JWT_ASPNetCore_Agung.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JWT_ASPNetCore_Agung.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class RolesController : ControllerBase

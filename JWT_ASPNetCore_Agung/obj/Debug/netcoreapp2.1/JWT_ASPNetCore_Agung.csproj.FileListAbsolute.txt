@@ -15,4 +15,3 @@ D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreap
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.dll
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.pdb
 D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.genruntimeconfig.cache
-D:\bootcamp\github\JWT_ASPNetCore_Agung\JWT_ASPNetCore_Agung\obj\Debug\netcoreapp2.1\JWT_ASPNetCore_Agung.csprojAssemblyReference.cache
