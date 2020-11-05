@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace JWT_ASPNetCore_Agung.Controllers
 {
 
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
